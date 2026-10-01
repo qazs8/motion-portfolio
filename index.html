@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>黄帅帅 Sean · Motion Portfolio</title>
+  <meta name="description" content="黄帅帅 Sean Huang —— 动态图形设计师。综艺包装、视频包装、动态图形作品集与个人简历。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+  <!-- ============ 导航（滚动时悬浮，自动高亮当前板块） ============ -->
+  <nav class="nav" id="nav" aria-label="页面导航">
+    <a class="nav-btn is-active" href="#resume" data-target="resume" aria-current="true">
+      <span class="nav-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M17.67 5.39h-.44v-.49c0-1.32-1.45-1.42-1.45-1.42l-6.07.01c-.25 0-.5.1-.68.27L5.17 7.5a.92.92 0 0 0-.28.67v9.02c0 1.35 1.44 1.42 1.44 1.42h.44v.49c0 1.35 1.45 1.42 1.45 1.42h9.45c1.38 0 1.45-1.42 1.45-1.42V6.81c0-1.32-1.45-1.42-1.45-1.42ZM9.02 5.09v1.99c0 .45-.49.47-.49.47H6.49l2.53-2.46ZM6.33 17.66s-.48 0-.48-.47V8.5h2.68s1.45-.11 1.45-1.42V4.43h5.8s.48.03.48.47v12.29s-.03.47-.48.47H6.33Zm11.82 1.43s-.03.48-.48.48H8.22s-.49 0-.49-.48v-.48h8.05c1.38 0 1.45-1.42 1.45-1.42V6.34h.44s.48.03.48.47v12.28Z"/><path fill="currentColor" d="M7.66 10.41h6.79a.43.43 0 0 0 0-.86H7.66a.43.43 0 0 0 0 .86Zm0 2.54h6.79a.43.43 0 0 0 0-.86H7.66a.43.43 0 0 0 0 .86Zm4.13 2.12a.43.43 0 0 0-.43-.43h-3.7a.43.43 0 0 0 0 .86h3.7c.24 0 .43-.19.43-.43Z"/></svg>
+      </span>
+      <span class="nav-label"><span class="nav-label-inner"><b>个人简历</b><em>Resume</em></span></span>
+    </a>
+    <a class="nav-btn" href="#showreel" data-target="showreel">
+      <span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M7.5 5 19.5 12 7.5 19Z" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/></svg></span>
+      <span class="nav-label"><span class="nav-label-inner"><b>作品集</b><em>Showreel</em></span></span>
+    </a>
+    <a class="nav-btn" href="#contact" data-target="contact">
+      <span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.8" y="5.8" width="16.4" height="12.4" rx="2.2"/><path d="m4 7.5 8 6 8-6"/></svg></span>
+      <span class="nav-label"><span class="nav-label-inner"><b>联系我</b><em>Contact</em></span></span>
+    </a>
+  </nav>
+
+  <div class="shell">
+    <!-- ============ 窗口标题栏：标签页 ============ -->
+    <header class="topbar">
+      <div class="tab">
+        <svg class="tab-shape tab-shape--desk" viewBox="0 0 716 95" preserveAspectRatio="none" aria-hidden="true"><path d="M74 95V94A36 36 0 0 0 110 58V40A40 40 0 0 1 150 0H465Q527 0 567 47Q607 94 668 94H716V95Z"/></svg>
+        <svg class="tab-shape tab-shape--mob" viewBox="0 0 300 53" preserveAspectRatio="none" aria-hidden="true"><path d="M38 53V52A20 20 0 0 0 58 32V22A22 22 0 0 1 80 0H162Q196 0 218 26Q240 52 274 52H300V53Z"/></svg>
+        <a class="tab-title" href="#top">Portfolio</a>
+      </div>
+    </header>
+
+    <main class="panel" id="top">
+
+      <!-- ================= 01 个人简历 ================= -->
+      <section class="resume" id="resume" aria-labelledby="resume-title">
+
+        <aside class="sidebar">
+          <div class="profile-card" data-reveal>
+            <img class="avatar" src="assets/avatar.png" alt="黄帅帅的头像" width="168" height="200">
+            <div class="profile-info">
+              <p class="profile-meta">男 · 23 岁 · 上海</p>
+              <h2 class="profile-name">黄帅帅</h2>
+              <p class="profile-en">Sean Huang</p>
+              <span class="role-tag">动态图形设计师</span>
+            </div>
+          </div>
+
+          <dl class="pstats" data-reveal>
+            <div class="stat"><dt>年龄 Age</dt><dd><span class="num" data-count="23">23</span><small>岁</small></dd></div>
+            <div class="stat"><dt>从业 Experience</dt><dd><span class="num" data-count="3">3</span><small>年</small></dd></div>
+            <div class="stat"><dt>完成项目 Projects</dt><dd><span class="num" data-count="60" data-suffix="+">60+</span><small>个</small></dd></div>
+            <div class="stat"><dt>坐标 Based in</dt><dd><span class="num num--cn">上海</span></dd></div>
+          </dl>
+
+          <div class="block contact-list" data-reveal>
+            <h3 class="block-title">联系方式<em>Contact</em></h3>
+            <a class="info-row" href="tel:13800000000"><span>电话</span>138 0000 0000</a>
+            <button class="info-row" type="button" data-copy="sean.motion@example.com"><span>邮箱</span>sean.motion@example.com</button>
+            <button class="info-row" type="button" data-copy="sean_motion"><span>微信</span>sean_motion</button>
+            <div class="info-row info-row--static"><span>状态</span><i class="status-dot"></i>可接项目 · 支持远程</div>
+          </div>
+
+          <div class="block skills" id="skills" data-reveal>
+            <h3 class="block-title">软件技能<em>Skills</em></h3>
+            <div class="skill" style="--p:95"><div class="skill-top"><span>After Effects</span><span>95%</span></div><div class="track"><i></i></div></div>
+            <div class="skill" style="--p:85"><div class="skill-top"><span>Cinema 4D</span><span>85%</span></div><div class="track"><i></i></div></div>
+            <div class="skill" style="--p:85"><div class="skill-top"><span>Premiere Pro</span><span>85%</span></div><div class="track"><i></i></div></div>
+            <div class="skill" style="--p:80"><div class="skill-top"><span>Illustrator / Photoshop</span><span>80%</span></div><div class="track"><i></i></div></div>
+            <div class="skill" style="--p:70"><div class="skill-top"><span>Redshift / Octane</span><span>70%</span></div><div class="track"><i></i></div></div>
+            <div class="skill" style="--p:55"><div class="skill-top"><span>Houdini</span><span>55%</span></div><div class="track"><i></i></div></div>
+          </div>
+
+          <div class="block education" data-reveal>
+            <h3 class="block-title">教育背景<em>Education</em></h3>
+            <div class="soft-card edu-card">
+              <p class="edu-year">2020 — 2024</p>
+              <p class="edu-school">华东影视艺术学院</p>
+              <p class="edu-major">数字媒体艺术（动画方向）· 本科</p>
+            </div>
+          </div>
+
+          <!-- 把 href 换成你的 PDF 简历路径，例如 assets/resume.pdf -->
+          <a class="btn-dark download" href="#" data-toast="PDF 简历待上传，替换链接即可下载" data-reveal>
+            下载 PDF 简历<span class="btn-arrow" aria-hidden="true">↓</span>
+          </a>
+        </aside>
+
+        <div class="divider-v" aria-hidden="true"></div>
+
+        <div class="resume-main">
+          <div class="sec-head" data-reveal>
+            <div>
+              <p class="eyebrow">01 — RESUME</p>
+              <h1 class="sec-title" id="resume-title">个人简历</h1>
+            </div>
+            <div class="chips">
+              <a class="chip" href="#experience">工作经历</a>
+              <a class="chip" href="#shows">代表节目</a>
+              <a class="chip" href="#awards">荣誉奖项</a>
+            </div>
+          </div>
+
+          <p class="intro" data-reveal>专注综艺节目包装与动态图形设计，擅长把节目的气质转译成有节奏感的视觉语言——从片头、花字到整套 ID 包装，让每一帧运动都“动得有道理”。</p>
+
+          <dl class="stats-card soft-card" data-reveal>
+            <div class="stat"><dt>参与综艺 Shows</dt><dd><span class="num" data-count="12">12</span><small>档</small></dd></div>
+            <div class="stat"><dt>累计播放 Views</dt><dd><span class="num num--mix" data-count="2" data-suffix="亿">2亿</span><small>+</small></dd></div>
+            <div class="stat"><dt>合作客户 Clients</dt><dd><span class="num" data-count="20">20</span><small>+</small></dd></div>
+            <div class="stat"><dt>设计奖项 Awards</dt><dd><span class="num" data-count="3">3</span><small>项</small></dd></div>
+          </dl>
+
+          <div class="block experience" id="experience">
+            <h3 class="block-title block-title--lg" data-reveal>工作经历<em>Experience</em></h3>
+            <ol class="timeline" data-reveal>
+              <li class="tl-item">
+                <div class="tl-head"><span class="tl-node">01</span><time>2023.07 — 2023.12</time></div>
+                <article class="soft-card job">
+                  <span class="pill pill--grey">实习</span>
+                  <time class="job-time">2023.07 — 2023.12</time>
+                  <h4>星河卫视 · 节目包装中心</h4>
+                  <p class="job-role">动态设计实习生</p>
+                  <ul><li>参与 4 档季播综艺的花字与角标制作</li><li>整理 AE 模板库，出片效率提升约 30%</li></ul>
+                </article>
+              </li>
+              <li class="tl-item">
+                <div class="tl-head"><span class="tl-node">02</span><time>2024.07 — 2025.08</time></div>
+                <article class="soft-card job">
+                  <span class="pill pill--lime">全职</span>
+                  <time class="job-time">2024.07 — 2025.08</time>
+                  <h4>拾光影业 · 综艺视觉部</h4>
+                  <p class="job-role">动态图形设计师</p>
+                  <ul><li>负责 6 档综艺的片头与整套包装</li><li>主导《荒野食堂》视觉体系，从提案到落地</li></ul>
+                </article>
+              </li>
+              <li class="tl-item">
+                <div class="tl-head"><span class="tl-node">03</span><time>2025.09 — 至今</time></div>
+                <article class="soft-card job">
+                  <span class="pill pill--lime">全职</span>
+                  <time class="job-time">2025.09 — 至今</time>
+                  <h4>像素跃动工作室 Pixel Leap</h4>
+                  <p class="job-role">资深动态设计师</p>
+                  <ul><li>带领 3 人小组完成品牌宣传片与发布会视频</li><li>建立 C4D + Redshift 三维包装流程</li></ul>
+                </article>
+              </li>
+              <li class="tl-end" aria-hidden="true">+</li>
+            </ol>
+          </div>
+
+          <div class="duo">
+            <div class="soft-card duo-card" id="shows" data-reveal>
+              <h3 class="block-title">代表节目<em>Selected Shows</em></h3>
+              <ul class="tag-cloud">
+                <li>《声入夏夜》</li><li>《荒野食堂》</li><li>《奇妙研究所》</li><li>《城市漫游指南》</li>
+                <li>《年度电竞盛典》</li><li>《好声音·新篇》</li><li>《一起去露营》</li><li>《舞台进行时》</li>
+              </ul>
+            </div>
+            <div class="soft-card duo-card" id="awards" data-reveal>
+              <h3 class="block-title">荣誉奖项<em>Awards</em></h3>
+              <ul class="awards">
+                <li><time>2025</time><span>新锐动态设计奖</span><i class="pill pill--lime">金奖</i></li>
+                <li><time>2024</time><span>年度综艺包装评选 · 最佳片头</span><i class="pill pill--lime">提名</i></li>
+                <li><time>2024</time><span>校园影像节 · 毕业设计</span><i class="pill pill--lime">优秀作品</i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 02 作品集 ================= -->
+      <section class="showreel" id="showreel" aria-labelledby="showreel-title">
+        <div class="sec-head sec-head--reel" data-reveal>
+          <div>
+            <p class="eyebrow">02 — SHOWREEL</p>
+            <h2 class="sec-title" id="showreel-title">作品集</h2>
+          </div>
+          <div class="filters" role="tablist" aria-label="作品分类">
+            <span class="filter-indicator" aria-hidden="true"></span>
+            <button class="filter is-active" role="tab" aria-selected="true" data-filter="all"><span class="txt">全部<span class="en"> All</span></span></button>
+            <button class="filter" role="tab" aria-selected="false" data-filter="variety"><span class="txt">综艺包装</span></button>
+            <button class="filter" role="tab" aria-selected="false" data-filter="video"><span class="txt">视频包装</span></button>
+            <button class="filter" role="tab" aria-selected="false" data-filter="motion"><span class="txt">动态图形</span></button>
+          </div>
+        </div>
+
+        <!-- 年度混剪：在 data-video 填入视频地址（如 assets/showreel.mp4）即可点击播放真实视频 -->
+        <div class="reel" data-video="" data-reveal>
+          <img class="reel-cover" src="assets/works/showreel-cover.svg" alt="年度作品混剪封面">
+          <span class="reel-tag"><i></i>SHOWREEL 2026 · 01:45</span>
+          <div class="reel-caption">
+            <h3>年度作品混剪</h3>
+            <p>综艺包装 / 视频包装 / 动态图形 精选片段</p>
+          </div>
+          <button class="play" type="button" aria-label="播放年度作品混剪">
+            <svg class="i-play" viewBox="0 0 36 36" aria-hidden="true"><path d="M12 8.5 28 18 12 27.5Z" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            <svg class="i-pause" viewBox="0 0 36 36" aria-hidden="true"><rect x="10" y="8" width="5.5" height="20" rx="2.75" fill="currentColor"/><rect x="20.5" y="8" width="5.5" height="20" rx="2.75" fill="currentColor"/></svg>
+          </button>
+          <span class="reel-time">▶&nbsp; <b>00:00</b> / 01:45</span>
+          <span class="reel-progress" aria-hidden="true"><i></i></span>
+        </div>
+
+        <!--
+          作品卡片说明：
+          - data-cat：variety 综艺包装 / video 视频包装 / motion 动态图形（用于筛选）
+          - 每个缩略图 <button class="thumb"> 的 data-src 指向大图；如需视频，加 data-kind="video"，
+            data-src 填 mp4 地址、data-poster 填封面图即可，点击后主画面会播放视频。
+        -->
+        <div class="projects">
+
+          <article class="project" data-cat="variety" data-reveal>
+            <div class="media">
+              <div class="media-main"><img src="assets/works/p1-1.svg" alt="《声入夏夜》包装主视觉"></div>
+              <div class="thumbs">
+                <button class="thumb is-active" data-src="assets/works/p1-1.svg" aria-label="查看第 1 张"><img src="assets/works/p1-1.svg" alt=""></button>
+                <button class="thumb" data-src="assets/works/p1-2.svg" aria-label="查看第 2 张"><img src="assets/works/p1-2.svg" alt=""></button>
+                <button class="thumb" data-src="assets/works/p1-3.svg" aria-label="查看第 3 张"><img src="assets/works/p1-3.svg" alt=""></button>
+              </div>
+            </div>
+            <div class="ptext">
+              <div class="ptext-a">
+                <div class="ptop"><span class="pno">01</span><span class="pill pill--lime">综艺包装</span><span class="pill pill--white">2025</span></div>
+                <h3 class="ptitle">《声入夏夜》音乐综艺整包</h3>
+                <p class="pen">Summer Night Voices — Show Package</p>
+                <dl class="meta">
+                  <div><dt>客户 Client</dt><dd>星河卫视</dd></div>
+                  <div><dt>角色 Role</dt><dd>主创动态设计</dd></div>
+                  <div><dt>工具 Tools</dt><dd>AE · C4D · Redshift</dd></div>
+                  <div><dt>交付 Deliverables</dt><dd>片头 30s + 40 余个包装元素</dd></div>
+                </dl>
+              </div>
+              <div class="ptext-b">
+                <h4 class="sub">设计思路<em>Concept</em></h4>
+                <p class="concept">以“夏夜里的声波”为核心意象：把歌声可视化为流动的光带，主色取夜空的深灰与萤火的黄绿。所有元素都从同一条声波生长出来，保证片头、角标、花字在不同场景下仍是一个整体。</p>
+                <h4 class="sub">亮点<em>Highlights</em></h4>
+                <ol class="highlights">
+                  <li><b>音频驱动的光带动画</b><span>用音轨振幅直接驱动光带形态，画面节奏与音乐严丝合缝。</span></li>
+                  <li><b>模块化包装系统</b><span>片头、角标、花字共用一套图形语言，40 余个元素可快速复用。</span></li>
+                  <li><b>二维与三维融合</b><span>C4D 渲染的光带与 AE 平面排版无缝合成，兼顾质感与效率。</span></li>
+                </ol>
+              </div>
+            </div>
+          </article>
+
+          <article class="project is-flip" data-cat="variety" data-reveal>
+            <div class="media">
+              <div class="media-main"><img src="assets/works/p2-1.svg" alt="《荒野食堂》包装主视觉"></div>
+              <div class="thumbs">
+                <button class="thumb is-active" data-src="assets/works/p2-1.svg" aria-label="查看第 1 张"><img src="assets/works/p2-1.svg" alt=""></button>
+                <button class="thumb" data-src="assets/works/p2-2.svg" aria-label="查看第 2 张"><img src="assets/works/p2-2.svg" alt=""></button>
+                <button class="thumb" data-src="assets/works/p2-3.svg" aria-label="查看第 3 张"><img src="assets/works/p2-3.svg" alt=""></button>
+              </div>
+            </div>
+            <div class="ptext">
+              <div class="ptext-a">
+                <div class="ptop"><span class="pno">02</span><span class="pill pill--lime">综艺包装</span><span class="pill pill--white">2025</span></div>
+                <h3 class="ptitle">《荒野食堂》户外美食综艺</h3>
+                <p class="pen">Wild Kitchen — Paper-craft Package</p>
+                <dl class="meta">
+                  <div><dt>客户 Client</dt><dd>拾光影业</dd></div>
+                  <div><dt>角色 Role</dt><dd>视觉提案 / 动画</dd></div>
+                  <div><dt>工具 Tools</dt><dd>AE · Illustrator · PS</dd></div>
+                  <div><dt>交付 Deliverables</dt><dd>片头 + 花字 + 食材图标库</dd></div>
+                </dl>
+              </div>
+              <div class="ptext-b">
+                <h4 class="sub">设计思路<em>Concept</em></h4>
+                <p class="concept">节目讲在野外就地取材、亲手做饭，所以视觉也要有“手作感”。用纸张拼贴和撕边质感替代常见的光效，并刻意保留一点不完美的抖动，让观众感受到真实的烟火气。</p>
+                <h4 class="sub">亮点<em>Highlights</em></h4>
+                <ol class="highlights">
+                  <li><b>纸艺拼贴质感</b><span>扫描真实牛皮纸与撕边素材，在 AE 中重组为可复用的纹理库。</span></li>
+                  <li><b>“一拍二”定格节奏</b><span>以每秒 12 帧模拟定格动画，强化手工感又不显得卡顿。</span></li>
+                  <li><b>食材图标系统</b><span>设计 60 余个食材图标，贯穿花字、转场与角标。</span></li>
+                </ol>
+              </div>
+            </div>
+          </article>
+
+          <article class="project" data-cat="video" data-reveal>
+            <div class="media">
+              <div class="media-main"><img src="assets/works/p3-1.svg" alt="Nova 发布会开场视觉"></div>
+              <div class="thumbs">
+                <button class="thumb is-active" data-src="assets/works/p3-1.svg" aria-label="查看第 1 张"><img src="assets/works/p3-1.svg" alt=""></button>
+                <button class="thumb" data-src="assets/works/p3-2.svg" aria-label="查看第 2 张"><img src="assets/works/p3-2.svg" alt=""></button>
+                <button class="thumb" data-src="assets/works/p3-3.svg" aria-label="查看第 3 张"><img src="assets/works/p3-3.svg" alt=""></button>
+              </div>
+            </div>
+            <div class="ptext">
+              <div class="ptext-a">
+                <div class="ptop"><span class="pno">03</span><span class="pill pill--lime">视频包装</span><span class="pill pill--white">2026</span></div>
+                <h3 class="ptitle">Nova 2026 品牌发布会开场</h3>
+                <p class="pen">Nova Launch Event — Opening Film &amp; Stage Visuals</p>
+                <dl class="meta">
+                  <div><dt>客户 Client</dt><dd>Nova 科技</dd></div>
+                  <div><dt>角色 Role</dt><dd>导演 / 三维动画</dd></div>
+                  <div><dt>工具 Tools</dt><dd>C4D · Houdini · AE</dd></div>
+                  <div><dt>交付 Deliverables</dt><dd>开场片 90s + 舞台主屏视觉</dd></div>
+                </dl>
+              </div>
+              <div class="ptext-b">
+                <h4 class="sub">设计思路<em>Concept</em></h4>
+                <p class="concept">发布会主题是“向内的光”。用层层扩散的光环象征产品从核心向外释放能量；90 秒开场按“静—聚—爆—收”四段编排，与现场灯光、音乐逐拍同步，让大屏和舞台成为一个整体。</p>
+                <h4 class="sub">亮点<em>Highlights</em></h4>
+                <ol class="highlights">
+                  <li><b>超宽舞台屏构图</b><span>为 11520×1080 主屏单独构图，横跨整个舞台的光环一气呵成。</span></li>
+                  <li><b>Houdini 粒子系统</b><span>百万级粒子模拟光尘，在关键节拍汇聚成品牌标志。</span></li>
+                  <li><b>与现场逐帧对点</b><span>输出灯光提示表，与舞美团队逐帧对齐每一次爆点。</span></li>
+                </ol>
+              </div>
+            </div>
+          </article>
+
+          <article class="project is-flip" data-cat="motion" data-reveal>
+            <div class="media">
+              <div class="media-main"><img src="assets/works/p4-1.svg" alt="《城市漫游指南》主视觉"></div>
+              <div class="thumbs">
+                <button class="thumb is-active" data-src="assets/works/p4-1.svg" aria-label="查看第 1 张"><img src="assets/works/p4-1.svg" alt=""></button>
+                <button class="thumb" data-src="assets/works/p4-2.svg" aria-label="查看第 2 张"><img src="assets/works/p4-2.svg" alt=""></button>
+                <button class="thumb" data-src="assets/works/p4-3.svg" aria-label="查看第 3 张"><img src="assets/works/p4-3.svg" alt=""></button>
+              </div>
+            </div>
+            <div class="ptext">
+              <div class="ptext-a">
+                <div class="ptop"><span class="pno">04</span><span class="pill pill--lime">动态图形</span><span class="pill pill--white">2024</span></div>
+                <h3 class="ptitle">《城市漫游指南》文旅 MG 系列</h3>
+                <p class="pen">City Wander — Motion Graphics Series</p>
+                <dl class="meta">
+                  <div><dt>客户 Client</dt><dd>漫游城市文旅</dd></div>
+                  <div><dt>角色 Role</dt><dd>设计 / 动画</dd></div>
+                  <div><dt>工具 Tools</dt><dd>AE · Illustrator</dd></div>
+                  <div><dt>交付 Deliverables</dt><dd>6 集 × 60s，横竖双版本</dd></div>
+                </dl>
+              </div>
+              <div class="ptext-b">
+                <h4 class="sub">设计思路<em>Concept</em></h4>
+                <p class="concept">面向年轻人的城市攻略短片。把每座城市提炼成“天际线 + 一个代表色 + 一句口号”，用扁平几何和明快节奏降低信息密度，让一分钟里的路线、美食、交通信息一眼就能看懂。</p>
+                <h4 class="sub">亮点<em>Highlights</em></h4>
+                <ol class="highlights">
+                  <li><b>城市视觉公式</b><span>“天际线 + 代表色 + 口号”的模板化设计，新城市 2 天即可出片。</span></li>
+                  <li><b>信息图动画</b><span>路线、时长、花费都用动态图表呈现，清晰而不枯燥。</span></li>
+                  <li><b>横竖双版本</b><span>同一工程同时输出 16:9 与 9:16，适配长视频与短视频平台。</span></li>
+                </ol>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ================= 03 联系我 ================= -->
+      <section class="contact" id="contact" aria-labelledby="contact-title" data-reveal>
+        <div class="contact-l">
+          <p class="eyebrow eyebrow--lime">03 — CONTACT</p>
+          <h2 class="contact-title" id="contact-title">一起做点<br class="br-mob">会动的东西吧</h2>
+          <p class="contact-en">Let's make things move.</p>
+        </div>
+        <div class="contact-r">
+          <button class="mail-btn" type="button" data-copy="sean.motion@example.com">
+            <span>sean.motion@example.com</span><span class="btn-arrow" aria-hidden="true">→</span>
+          </button>
+          <ul class="socials">
+            <li><a href="#" target="_blank" rel="noopener">站酷</a></li>
+            <li><a href="#" target="_blank" rel="noopener">Bilibili</a></li>
+            <li><a href="#" target="_blank" rel="noopener">Behance</a></li>
+            <li><a href="#" target="_blank" rel="noopener">Vimeo</a></li>
+          </ul>
+          <p class="copyright">© 2026 黄帅帅 Sean Huang · Motion Designer</p>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
